@@ -37,29 +37,32 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
-    description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    imageUrl: theGrid,
+    title: "Software Developer & Project Manager",
+    location: "HK Consulting Inc.",
     date: "2024",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+    description: "Built scalable web apps with React.js, Node.js, and AWS Cloud. Led Agile workflows and implemented CI/CD pipelines.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+    title: "Software Developer",
+    location: "Ion Solar",
+    date: "2023",
+    description: "Developed RESTful APIs in Ruby on Rails, optimized database queries, and integrated CI/CD pipelines.",
+    icon: React.createElement(CgWorkAlt),
+  },
+  {
+    title: "Computer Science Teaching Assistant",
+    location: "Brigham Young University–Hawaii",
+    date: "2023",
+    description: "Taught Object-Oriented Programming and mentored students in Java and Ruby.",
+    icon: React.createElement(CgWorkAlt),
+  },
+  {
+    title: "Help Desk Support",
+    location: "Kahuku Medical Center",
+    date: "2021",
+    description: "Automated workflows using Visual Basic and provided IT support and training.",
+    icon: React.createElement(CgWorkAlt),
   },
 ] as const;
 
@@ -118,23 +121,21 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
+  "Java",
+  "React.js",
+  "AWS Cloud",
+  "JavaScript",
+  "Node.js",
+  "SQL",
+  "Ruby",
+  "Ruby on Rails",
+  "CI/CD",
+  "Git",
+  "Jira",
+  "Sidekiq",
+  "Object-Oriented Programming",
+  "Visual Basic",
   "HTML",
   "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "Figma"
 ] as const;
