@@ -7,7 +7,7 @@ import webToClickUp from "@/public/images/web_to_click_up.png";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
-import { Project } from "./types";
+// import { Project } from "./types";
 
 export const links = [
   {
@@ -67,7 +67,7 @@ export const experiencesData = [
   },
 ] as const;
 
-export const projectsData: Project[] = [
+export const projectsData = [
   {
     title: "The Grid",
     description: "Developed as a Ruby on Rails application for ION Solar, focusing on robust API integrations, background job processing, and efficient data management.",
@@ -97,27 +97,27 @@ export const projectsData: Project[] = [
     imageUrl: corpcommentImg,
 
   },
-  {
-    title: "rmtDev",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
-  },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
-  },
+  // {
+  //   title: "rmtDev",
+  //   description:
+  //     "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+  //   tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+  //   imageUrl: rmtdevImg,
+  // },
+  // {
+  //   title: "Word Analytics",
+  //   description:
+  //     "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+  //   tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+  //   imageUrl: wordanalyticsImg,
+  // },
 
-  {
-    title: "Anel Tools",
-    description: "A collection of utility scripts and tools built to enhance developer productivity, featuring automation scripts, command-line utilities, and integrations.",
-    tags: ["Node.js", "JavaScript", "CLI", "Automation"],
-    imageUrl: "", // Image will be added later
-  },
+  // {
+  //   title: "Anel Tools",
+  //   description: "A collection of utility scripts and tools built to enhance developer productivity, featuring automation scripts, command-line utilities, and integrations.",
+  //   tags: ["Node.js", "JavaScript", "CLI", "Automation"],
+  //   imageUrl: "", // Image will be added later
+  // },
 ] as const;
 
 export const skillsData = [
