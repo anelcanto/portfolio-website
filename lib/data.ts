@@ -7,6 +7,7 @@ import webToClickUp from "@/public/images/web_to_click_up.png";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import { Project } from "./types";
 
 export const links = [
   {
@@ -66,7 +67,7 @@ export const experiencesData = [
   },
 ] as const;
 
-export const projectsData = [
+export const projectsData: Project[] = [
   {
     title: "The Grid",
     description: "Developed as a Ruby on Rails application for ION Solar, focusing on robust API integrations, background job processing, and efficient data management.",
@@ -94,7 +95,6 @@ export const projectsData = [
       "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: corpcommentImg,
-    projectLink: "#",
 
   },
   {
