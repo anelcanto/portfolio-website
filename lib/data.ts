@@ -2,11 +2,15 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+// images
 import theGrid from "@/public/images/the_grid_app.png";
 import webToClickUp from "@/public/images/web_to_click_up.png";
+import resumeBuilder from "@/public/images/resume_builder.png";
+// icons
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+
 // import { Project } from "./types";
 
 export const links = [
@@ -69,6 +73,19 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Resume Builder",
+    description: "An application that leverages a custom GPT model to tailor resumes according to specific job descriptions, enhancing job seekers' chances by aligning their resumes with desired roles.",
+    tags: [
+      "AI Integration",
+      "TypeScript",
+      "GPTs",
+      "Next.js",
+      "React",
+    ],
+    imageUrl: resumeBuilder,
+    projectLink: "https://resume-builder.anelcanto.com/",
+  },
+  {
     title: "The Grid",
     description: "Developed as a Ruby on Rails application for ION Solar, focusing on robust API integrations, background job processing, and efficient data management.",
     tags: ["Ruby on Rails", "Ruby", "Sidekiq", "API", "SQL", "React Native"],
@@ -87,7 +104,7 @@ export const projectsData = [
       "JavaScript"
     ],
     imageUrl: webToClickUp,
-    projectLink: "https://webtoclickup.anelcanto.com/", 
+    projectLink: "https://webtoclickup.dolphinwebdynamics.com/", 
   },
   {
     title: "CorpComment",
